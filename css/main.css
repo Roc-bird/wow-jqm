@@ -1,0 +1,93 @@
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+div[data-role="header"],
+div[data-role="footer"] {
+	opacity: 1;
+}
+
+.ui-icon-occupation:after {
+	background: url("../images/occupation.png") no-repeat 3px 3px;
+}
+
+.ui-icon-major:after {
+	background: url("../images/major.png") no-repeat 3px 3px;
+}
+
+.ui-icon-alliance:after {
+	background: url("../images/alliance.png") no-repeat 3px 3px;
+}
+
+.ui-icon-equipment:after {
+	background: url("../images/equipment.png") no-repeat 3px 3px;
+}
+
+.ui-icon-race:after {
+	background: url("../images/race.jpg") no-repeat 3px 3px;
+}
+
+.ui-grid-c {
+	text-align: center;
+}
+
+div[data-role="main"] {
+	margin-top: 2.715rem;
+}
+
+div[data-role="main"] ul[data-role="listview"] {
+	margin: 0;
+}
+
+.custom-ppt {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.custom-ppt ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+	transition: transform 1.5s;
+	transform: translateX(0);
+}
+
+.custom-ppt li {
+	position: relative;
+	float: left;
+	z-index: 5;
+}
+
+.custom-ppt a {
+	padding: 0;
+	margin: 0;
+}
+
+.custom-ppt img {
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+.flink {
+	margin: 1rem;
+}
+
+.flink .ui-btn {
+	width: 20%;
+	margin: 0 5%;
+	padding: 0;
+	border: 1px solid #eee;
+	border-radius: 100%;
+	line-height: 4rem;
+	background-color: #191919;
+	color: #fff;
+	/*text-align: center;*/
+}
+
+#homepage h3 {
+	margin-bottom: 0;
+}
